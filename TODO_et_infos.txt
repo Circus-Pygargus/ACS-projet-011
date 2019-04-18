@@ -1,5 +1,6 @@
 Liste des polices de la page :
-
+    - Segoe UI : light, regular, semibold, bold (300, 400, 600, 700)
+    - Bitter bold
 
 
 détails des polices par section:
@@ -47,3 +48,6 @@ détails des polices par section:
     _ footer : 
         - texte: Segoe UI semibold
 
+
+TODO : 
+ - remplir les meta descriptions et keywords
