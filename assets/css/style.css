@@ -1,5 +1,39 @@
+/* ###############################  Fonts ################################ */
+@font-face {
+  font-family: "segoe_ui";
+  src: url("../assets/font/Segoe_UI.ttf");
+}
+@font-face {
+  font-family: "bitter";
+  src: url("../assets/font/Bitter-Regular.otf");
+}
 * {
   margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  width: 100vw;
+}
+body .white {
+  color: #ffffff;
+}
+body .blue {
+  color: #4bcaff;
+}
+body header {
+  background-image: url("../img/background_header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body header nav {
+  font-family: "segoe_ui";
+}
+body main #section_services {
+  background-color: #4bcaff;
 }
 
 /*# sourceMappingURL=style.css.map */
