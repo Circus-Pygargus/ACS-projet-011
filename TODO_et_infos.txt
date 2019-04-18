@@ -1,0 +1,49 @@
+Liste des polices de la page :
+
+
+
+détails des polices par section:
+    _ header : 
+        - logo : Segoe UI bold
+        - navbar : Segoe UI bold
+        - titre : Segoe UI light
+
+    _ services :
+        - titre : Segoe UI light
+        - pour chaque colonne :
+            - titre : Segoe UI semi bold
+            - texte :  Segoe UI semi bold
+
+    _ portfolio : 
+        - titre:  Segoe UI light
+        - filter bar :  Segoe UI bold
+
+    _ section : 
+        - titre:  Segoe UI light
+        - texte:  Segoe UI regular
+        - bouton:  Segoe UI regular
+
+    _ twitter : 
+        - titre:  Segoe UI light
+        - texte:  Segoe UI light et semibold (à vérifier)
+
+    _ whois : 
+        - titre:  Segoe UI light
+        - texte:  Segoe UI regular
+    
+    _ testimonial : 
+        - titre:  Segoe UI light
+        - texte:  Segoe UI light
+        - double quote: bitter bold
+        - nom signature:  Segoe UI bold
+
+    _ contact : 
+        - titre:  Segoe UI light
+        - texte:  Segoe UI semibold
+
+        - label champs:  Segoe UI bold
+        - bouton submit: Segoe UI bold
+
+    _ footer : 
+        - texte: Segoe UI semibold
+
