@@ -1,23 +1,37 @@
 /* ###############################  Fonts ################################ */
 @font-face{
-  font-family: 'segoe_ui';
-  src: url('../assets/font/Segoe_UI.ttf');
+  font-family: 'segoeui_l';
+  src: url('../font/segoeui_l.ttf');
 }
 @font-face{
-  font-family: 'bitter';
-  src: url('../assets/font/Bitter-Regular.otf');
+  font-family: 'segoeui_r';
+  src: url('../font/segoeui_r.ttf');
+}
+@font-face{
+  font-family: 'segoeui_sb';
+  src: url('../font/segoeui_sb.ttf');
+}
+@font-face{
+  font-family: 'segoeui_b';
+  src: url('../font/segoeui_b.ttf');
+}
+@font-face{
+  font-family: 'bitter_b';
+  src: url('../font/bitter_b.otf');
 }
 
 
 * {
   margin: 0;
   padding: 0;
-  text-decoration: none;
-  list-style-type: none;
+}
+
+.container-fluid{
+  padding: 0;
+  margin: 0;
 }
 
 body {
-  width: 100vw;
 
   .white {
     color: #ffffff;
@@ -26,20 +40,44 @@ body {
     color: #4bcaff;
   }
 
-  header {
+  header.container-fluid {
     background-image: url('../img/background_header.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    nav {
-      font-family: 'segoe_ui';
+    .container-fluid {
+      padding: 0;
+    }
+
+    #background_navbar {
+      background-color: rgba($color: #353f46, $alpha: 0.85);
+
+      .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {        
+        font-family: 'segoeui_b', sans-serif;
+        color: white;
+        border: 2px solid transparent;
+      }
+      .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {  
+        color: #4bcaff;
+        span.blue{
+          color: white;
+        }
+      }
+      .navbar-light .navbar-nav .nav-link:active {  
+        color: #4bcaff;
+        border-color: #4bcaff;
+        span.blue{
+          color: white;
+        }
+      }
     }
   }
 
   main {
     #section_services {
       background-color: #4bcaff;
+
     }
   }
 }
