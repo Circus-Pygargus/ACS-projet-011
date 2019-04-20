@@ -86,13 +86,17 @@ body {
   }
 
   main {
-    .container-fluid .container .row div div.border-top.bordure_blanche {
+    .container-fluid .container .row div div.border-top {
+      position: absolute;
+      top: -10px;
       width: 45px;
-      border: 2px solid white;
+      border: 2px solid transparent;
+    }
+    .container-fluid .container .row div div.border-top.bordure_blanche {
+      border-color: white;
     }
     .container-fluid .container .row div div.border-top.bordure_noire {
-      width: 45px;
-      border: 2px solid black;
+      border-color: black;
     }
     #section_services {
       background-color: #4bcaff;

@@ -92,8 +92,8 @@
       <div class="container py-5">
         <div class="row">
           <div class="col-12">
-              <h2 class="text-white">SERVICES</h2>
-              <div class="border-top bordure_blanche mb-4"></div>
+            <h2 class="text-white">SERVICES</h2>
+            <div class="border-top bordure_blanche mb-4"></div>
           </div>
         </div>
         <div class="row">
@@ -138,6 +138,77 @@
     </section>
 
     <section id="section_portfolio" class="container-fluid">
+      <div class="container py-5">
+        <!-- barre de titre -->
+        <div class="row justify-content-between">
+          <div class="col">
+            <div>
+              <h2 class="text-black">PORTFOLIO</h2>
+              <div class="border-top bordure_noire mb-4"></div>
+            </div>
+          </div>
+          <!-- liste choix des images à afficher -->
+          <div class="col_md-auto">
+            <div class="list-group list-group-horizontal-md" role="tab-list">
+              <a class="list-group-item list-group-item-action active" id="list-all-list" data-toggle="list"
+                href="#list-all" role="tab" aria-controls="all">ALL</a>
+              <a class="list-group-item list-group-item-action" id="list-bridges-list" data-toggle="list"
+                href="#list-bridges" role="tab" aria-controls="bridges">BRIDGES</a>
+              <a class="list-group-item list-group-item-action" id="list-water-list" data-toggle="list"
+                href="#list-water" role="tab" aria-controls="water">WATER</a>
+              <a class="list-group-item list-group-item-action" id="list-mountains-list" data-toggle="list"
+                href="#list-mountains" role="tab" aria-controls="mountains">MOUNTAINS</a>
+              <a class="list-group-item list-group-item-action" id="list-shack-list" data-toggle="list"
+                href="#list-shack" role="tab" aria-controls="shack">SHACK</a>
+            </div>
+          </div>
+        </div>
+        <!-- zone d'affichage des images -->
+        <div class="row">
+          <div class="col-12">
+            <div class="tab-content" id="nav-tab-content">
+              <div class="tab-pane fade justify-content-between show active" id="list-all" role="tabpanel"
+                aria-labelledby="list-all-list">
+                <img class="mt-1" src="assets/img/portfolio_img_1_1.png" alt="a rounded bridge" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_1.jpg" data-target="#galleryModal">
+                <img class="mt-1" src="assets/img/portfolio_img_1_2.png" alt="a bridge hidden by fog" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_2.jpg" data-target="#galleryModal">
+                <img class="mt-1" src="assets/img/portfolio_img_1_3.png" alt="a lake" width="270" height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_3.jpg" data-target="#galleryModal">
+                <img class="mt-1" src="assets/img/portfolio_img_1_4.png" alt="a little island in the middle of a lake"
+                  width="270" height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_4.jpg" data-target="#galleryModal">
+                <img class="mt-1" src="assets/img/portfolio_img_2_1.png" alt="a wood shack in mountains" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_1.jpg" data-target="#galleryModal">
+                <img class="mt-1" src="assets/img/portfolio_img_2_2.png" alt="John Doe surfing waves" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_2.jpg" data-target="#galleryModal">
+                <img class="mt-1" src="assets/img/portfolio_img_2_3.png" alt="a mountain" width="270" height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_3.jpg" data-target="#galleryModal">
+                <img class="mt-1" src="assets/img/portfolio_img_2_4.png" alt="a mountain with some fog" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_4.jpg" data-target="#galleryModal">
+              </div>
+              <div class="tab-pane fade" id="list-bridges" role="tabpanel" aria-labelledby="list-bridges-list">
+                <img class="" src="assets/img/portfolio_img_1_1.png" alt="a rounded bridge" width="270" height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_1.jpg" data-target="#galleryModal">
+                <img class="" src="assets/img/portfolio_img_1_2.png" alt="a bridge hidden by fog" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_2.jpg" data-target="#galleryModal">
+              </div>
+              <div class="tab-pane fade" id="list-water" role="tabpanel" aria-labelledby="list-water-list">
+                <img class="" src="assets/img/portfolio_img_1_3.png" alt="a lake" width="270" height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_3.jpg" data-target="#galleryModal">
+                <img class="" src="assets/img/portfolio_img_1_4.png" alt="an island in the middle of a lake" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_4.jpg" data-target="#galleryModal">
+                <img class="" src="assets/img/portfolio_img_2_2.png" alt="John Doe surfing waves" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_2.jpg" data-target="#galleryModal">
+              </div>
+              <div class="tab-pane fade" id="list-mountains" role="tabpanel" aria-labelledby="list-mountains-list">
+                <img class="" src="assets/img/portfolio_img_2_3.png" alt="a mountain" width="270" height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_3.jpg" data-target="#galleryModal">
+                <img class="" src="assets/img/portfolio_img_2_4.png" alt="a mountain with some fog" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_4.jpg" data-target="#galleryModal">
+              </div>
+              <div class="tab-pane fade" id="list-shack" role="tabpanel" aria-labelledby="list-shack-list">
+                <img class="" src="assets/img/portfolio_img_2_1.png" alt="a wood shack in mountains" width="270"
+                  height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_1.jpg" data-target="#galleryModal">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="section_features" style=" height:800px">
@@ -145,6 +216,34 @@
 
     <section id="section_contact" style=" height:800px">
     </section>
+
+
+    <!-- gallery modal 
+            need galleryModal.js -->
+    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog ">  <!-- modal-xl -->
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <h3 class="text-center mb-0"></h3>
+            <button type="button" class="close float-right" aria-label="Close" data-dismiss="modal">
+              <span aria-hidden="true">&#xD7;</span>
+            </button>
+          </div>
+          <div class="modal-body p-0 text-center bg-alt"> -->
+            <img src="assets/img/portfolio_img_1_1.png" id="galleryImage" class="loaded-image mx-auto img-fluid">
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="galleryModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img src="assets/img/big_hover/portfolio_img_1_1.jpg" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div> -->
   </main>
 
   <footer></footer>
@@ -152,6 +251,7 @@
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
   <script src="assets/js/bootstrap_popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/galleryModal.js"></script>
 </body>
 
 </html>
