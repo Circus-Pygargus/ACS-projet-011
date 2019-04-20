@@ -1,0 +1,102 @@
+/* ###############################  Fonts ################################ */
+@font-face{
+  font-family: 'segoeui_l';
+  src: url('../font/segoeui_l.ttf');
+}
+@font-face{
+  font-family: 'segoeui_r';
+  src: url('../font/segoeui_r.ttf');
+}
+@font-face{
+  font-family: 'segoeui_sb';
+  src: url('../font/segoeui_sb.ttf');
+}
+@font-face{
+  font-family: 'segoeui_b';
+  src: url('../font/segoeui_b.ttf');
+}
+@font-face{
+  font-family: 'bitter_b';
+  src: url('../font/bitter_b.otf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+  .white {
+    color: #ffffff;
+  }
+  .blue {
+    color: #4bcaff;
+  }
+
+  header.container-fluid {
+    background-image: url('../img/background_header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container-fluid {
+      padding: 0;
+    }
+
+    .background_navbar {
+      background-color: rgba($color: #353f46, $alpha: 0.85);
+
+      .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {        
+        font-family: 'segoeui_b', sans-serif;
+        color: white;
+        border: 2px solid transparent;
+      }
+      .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {  
+        color: #4bcaff;
+        span.blue{
+          color: white;
+        }
+      }
+      .navbar-light .navbar-nav .nav-link.active {  
+        color: #4bcaff;
+        border-color: #4bcaff;
+        span.blue{
+          color: white;
+        }
+      }
+      .navbar-light .navbar-nav .nav-link.active:hover {
+        color: white;
+      }
+    }
+
+    #top_anchor {
+      height: 150px;
+    }
+
+    h1 {
+      line-height: 50px;
+    }
+  }
+
+  main {
+    .container-fluid .container .row div div.border-top.bordure_blanche {
+      width: 45px;
+      border: 2px solid white;
+    }
+    .container-fluid .container .row div div.border-top.bordure_noire {
+      width: 45px;
+      border: 2px solid black;
+    }
+    #section_services {
+      background-color: #4bcaff;
+
+    }
+  }
+}

@@ -1,0 +1,89 @@
+/* ###############################  Fonts ################################ */
+@font-face {
+  font-family: "segoeui_l";
+  src: url("../font/segoeui_l.ttf");
+}
+@font-face {
+  font-family: "segoeui_r";
+  src: url("../font/segoeui_r.ttf");
+}
+@font-face {
+  font-family: "segoeui_sb";
+  src: url("../font/segoeui_sb.ttf");
+}
+@font-face {
+  font-family: "segoeui_b";
+  src: url("../font/segoeui_b.ttf");
+}
+@font-face {
+  font-family: "bitter_b";
+  src: url("../font/bitter_b.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+body .white {
+  color: #ffffff;
+}
+body .blue {
+  color: #4bcaff;
+}
+body header.container-fluid {
+  background-image: url("../img/background_header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body header.container-fluid .container-fluid {
+  padding: 0;
+}
+body header.container-fluid .background_navbar {
+  background-color: rgba(53, 63, 70, 0.85);
+}
+body header.container-fluid .background_navbar .navbar-light .navbar-brand, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link {
+  font-family: "segoeui_b", sans-serif;
+  color: white;
+  border: 2px solid transparent;
+}
+body header.container-fluid .background_navbar .navbar-light .navbar-brand:hover, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link:hover {
+  color: #4bcaff;
+}
+body header.container-fluid .background_navbar .navbar-light .navbar-brand:hover span.blue, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link:hover span.blue {
+  color: white;
+}
+body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active {
+  color: #4bcaff;
+  border-color: #4bcaff;
+}
+body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active span.blue {
+  color: white;
+}
+body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active:hover {
+  color: white;
+}
+body header.container-fluid #top_anchor {
+  height: 150px;
+}
+body header.container-fluid h1 {
+  line-height: 50px;
+}
+body main .container-fluid .container .row div div.border-top.bordure_blanche {
+  width: 45px;
+  border: 2px solid white;
+}
+body main .container-fluid .container .row div div.border-top.bordure_noire {
+  width: 45px;
+  border: 2px solid black;
+}
+body main #section_services {
+  background-color: #4bcaff;
+}
+
+/*# sourceMappingURL=style.css.map */
