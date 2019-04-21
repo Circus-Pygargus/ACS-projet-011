@@ -44,14 +44,22 @@ body header.container-fluid {
 body header.container-fluid .container-fluid {
   padding: 0;
 }
+<<<<<<< HEAD
 body header.container-fluid .background_navbar {
   background-color: rgba(53, 63, 70, 0.85);
 }
 body header.container-fluid .background_navbar .navbar-light .navbar-brand, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link {
+=======
+body header.container-fluid #background_navbar {
+  background-color: rgba(53, 63, 70, 0.85);
+}
+body header.container-fluid #background_navbar .navbar-light .navbar-brand, body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link {
+>>>>>>> 1b20166d360a4dc6fd6676169acd240e1d1b4d97
   font-family: "segoeui_b", sans-serif;
   color: white;
   border: 2px solid transparent;
 }
+<<<<<<< HEAD
 body header.container-fluid .background_navbar .navbar-light .navbar-brand:hover, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link:hover {
   color: #4bcaff;
 }
@@ -86,6 +94,21 @@ body main .container-fluid .container .row div div.border-top.bordure_blanche {
 body main .container-fluid .container .row div div.border-top.bordure_noire {
   border-color: black;
 }
+=======
+body header.container-fluid #background_navbar .navbar-light .navbar-brand:hover, body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link:hover {
+  color: #4bcaff;
+}
+body header.container-fluid #background_navbar .navbar-light .navbar-brand:hover span.blue, body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link:hover span.blue {
+  color: white;
+}
+body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link:active {
+  color: #4bcaff;
+  border-color: #4bcaff;
+}
+body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link:active span.blue {
+  color: white;
+}
+>>>>>>> 1b20166d360a4dc6fd6676169acd240e1d1b4d97
 body main #section_services {
   background-color: #4bcaff;
 }
