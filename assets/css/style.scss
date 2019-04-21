@@ -50,11 +50,7 @@ body {
       padding: 0;
     }
 
-<<<<<<< HEAD
-    .background_navbar {
-=======
     #background_navbar {
->>>>>>> 1b20166d360a4dc6fd6676169acd240e1d1b4d97
       background-color: rgba($color: #353f46, $alpha: 0.85);
 
       .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {        
@@ -68,18 +64,13 @@ body {
           color: white;
         }
       }
-<<<<<<< HEAD
-      .navbar-light .navbar-nav .nav-link.active {  
-=======
       .navbar-light .navbar-nav .nav-link:active {  
->>>>>>> 1b20166d360a4dc6fd6676169acd240e1d1b4d97
         color: #4bcaff;
         border-color: #4bcaff;
         span.blue{
           color: white;
         }
       }
-<<<<<<< HEAD
       .navbar-light .navbar-nav .nav-link.active:hover {
         color: white;
       }
@@ -91,13 +82,11 @@ body {
 
     h1 {
       line-height: 50px;
-=======
->>>>>>> 1b20166d360a4dc6fd6676169acd240e1d1b4d97
     }
   }
 
   main {
-<<<<<<< HEAD
+
     .container-fluid .container .row div div.border-top {
       position: absolute;
       top: -10px;
@@ -110,8 +99,7 @@ body {
     .container-fluid .container .row div div.border-top.bordure_noire {
       border-color: black;
     }
-=======
->>>>>>> 1b20166d360a4dc6fd6676169acd240e1d1b4d97
+
     #section_services {
       background-color: #4bcaff;
 
