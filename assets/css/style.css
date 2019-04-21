@@ -44,28 +44,28 @@ body header.container-fluid {
 body header.container-fluid .container-fluid {
   padding: 0;
 }
-body header.container-fluid #background_navbar {
+body header.container-fluid .background_navbar {
   background-color: rgba(53, 63, 70, 0.85);
 }
-body header.container-fluid #background_navbar .navbar-light .navbar-brand, body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link {
+body header.container-fluid .background_navbar .navbar-light .navbar-brand, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link {
   font-family: "segoeui_b", sans-serif;
   color: white;
   border: 2px solid transparent;
 }
-body header.container-fluid #background_navbar .navbar-light .navbar-brand:hover, body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link:hover {
+body header.container-fluid .background_navbar .navbar-light .navbar-brand:hover, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link:hover {
   color: #4bcaff;
 }
-body header.container-fluid #background_navbar .navbar-light .navbar-brand:hover span.blue, body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link:hover span.blue {
+body header.container-fluid .background_navbar .navbar-light .navbar-brand:hover span.blue, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link:hover span.blue {
   color: white;
 }
-body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link:active {
+body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active {
   color: #4bcaff;
   border-color: #4bcaff;
 }
-body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link:active span.blue {
+body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active span.blue {
   color: white;
 }
-body header.container-fluid #background_navbar .navbar-light .navbar-nav .nav-link.active:hover {
+body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active:hover {
   color: white;
 }
 body header.container-fluid #top_anchor {

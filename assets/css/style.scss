@@ -50,7 +50,7 @@ body {
       padding: 0;
     }
 
-    #background_navbar {
+    .background_navbar {
       background-color: rgba($color: #353f46, $alpha: 0.85);
 
       .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {        
@@ -64,7 +64,7 @@ body {
           color: white;
         }
       }
-      .navbar-light .navbar-nav .nav-link:active {  
+      .navbar-light .navbar-nav .nav-link.active {  
         color: #4bcaff;
         border-color: #4bcaff;
         span.blue{
@@ -86,7 +86,6 @@ body {
   }
 
   main {
-
     .container-fluid .container .row div div.border-top {
       position: absolute;
       top: -10px;
@@ -99,7 +98,6 @@ body {
     .container-fluid .container .row div div.border-top.bordure_noire {
       border-color: black;
     }
-
     #section_services {
       background-color: #4bcaff;
 
