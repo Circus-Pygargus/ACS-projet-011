@@ -125,7 +125,7 @@ body {
         }
       }
     }
-    #section_portfolio .container .row div .list-group a.list-group-item {   
+    #section_portfolio .container .row div .list-group a.list-group-item {  
       font-family: 'segoeui_b', sans-serif;
       color: black;
       border: 2px solid transparent;
@@ -143,6 +143,69 @@ body {
     }
     #section_portfolio .container .row div .list-group a.list-group-item.active:hover {  
       color: black;
+    }
+
+
+    #section_features {
+      background-color: #515f67;
+      .container {
+        .col-5 {
+          a {
+            font-family: "segoeui_b";
+            text-decoration: none;
+            color: #353f46;
+            border: 2px solid #353f46;
+          }
+          a:hover {
+            color: #4bcaff;
+          }
+        }
+      }
+    }
+
+
+    #section_twitter {
+      background-color: #4bcaff;
+      .container {
+        .row {
+          .col-auto {
+            a{
+              svg {
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+          div {
+            p {
+              font-family: 'segoeui_l';
+              line-height: 50px;
+              span {
+                font-family: 'segoeui_sb';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    background-color: #353f47;
+    font-family: 'segoeui_sb';
+    color: #515f67;
+    .container {
+      .row {
+        .col-auto {
+          a {
+            color: #515f67;
+            text-decoration: none;
+          }
+          div {
+            display: inline;
+          }
+        }
+      }
     }
   }
 }

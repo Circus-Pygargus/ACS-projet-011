@@ -126,5 +126,43 @@ body main #section_portfolio .container .row div .list-group a.list-group-item.a
 body main #section_portfolio .container .row div .list-group a.list-group-item.active:hover {
   color: black;
 }
+body main #section_features {
+  background-color: #515f67;
+}
+body main #section_features .container .col-5 a {
+  font-family: "segoeui_b";
+  text-decoration: none;
+  color: #353f46;
+  border: 2px solid #353f46;
+}
+body main #section_features .container .col-5 a:hover {
+  color: #4bcaff;
+}
+body main #section_twitter {
+  background-color: #4bcaff;
+}
+body main #section_twitter .container .row .col-auto a svg {
+  width: 40px;
+  height: 40px;
+}
+body main #section_twitter .container .row div p {
+  font-family: "segoeui_l";
+  line-height: 50px;
+}
+body main #section_twitter .container .row div p span {
+  font-family: "segoeui_sb";
+}
+body footer {
+  background-color: #353f47;
+  font-family: "segoeui_sb";
+  color: #515f67;
+}
+body footer .container .row .col-auto a {
+  color: #515f67;
+  text-decoration: none;
+}
+body footer .container .row .col-auto div {
+  display: inline;
+}
 
 /*# sourceMappingURL=style.css.map */
