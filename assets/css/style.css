@@ -145,12 +145,40 @@ body main #section_twitter .container .row .col-auto a svg {
   width: 40px;
   height: 40px;
 }
+body main #section_twitter .container .row .col-auto a svg:hover {
+  fill: #353f46;
+}
 body main #section_twitter .container .row div p {
   font-family: "segoeui_l";
   line-height: 50px;
 }
 body main #section_twitter .container .row div p span {
   font-family: "segoeui_sb";
+}
+body main #section_whois {
+  background-image: url("../img/background_whois.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body main #section_whois .container {
+  padding: 5rem 15px;
+}
+body main #section_whois .container .row div p {
+  font-size: 0.82rem;
+}
+body main #section_whois .container .row div div a {
+  border: 2px solid white;
+}
+body main #section_whois .container .row div div a svg {
+  width: 40px;
+  height: 40px;
+}
+body main #section_whois .container .row div div a svg:hover {
+  fill: #353f46;
+}
+body main #section_testimonials .container .row div h2 {
+  color: black;
 }
 body footer {
   background-color: #353f47;
