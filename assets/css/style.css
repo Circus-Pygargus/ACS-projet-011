@@ -81,6 +81,8 @@ body header.container-fluid .container {
   padding: 11rem 0;
 }
 body header.container-fluid .container h1 {
+  display: flex;
+  justify-content: center;
   font-family: "segoeui_l";
   line-height: 50px;
   color: white;
@@ -208,6 +210,9 @@ body main #section_contact .container .form .row .form-group input, body main #s
   background-color: transparent;
   border-radius: 0;
   color: #ffffff;
+}
+body main #section_contact .container .form .row .form-group small {
+  color: transparent;
 }
 body main #section_contact .container .form .row div p, body main #section_contact .container .form .row div pre {
   font-family: "segoeui_sb";

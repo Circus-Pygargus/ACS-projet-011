@@ -433,7 +433,7 @@ C570.147,239.158,580.126,228.537,588,216.411" />
 
     <section id="section_contact" class="container-fluid">
       <div class="container py-5">
-        <div class="form">
+        <div id="myForm" class="form">
           <div class="row">
             <div class="col-12">
               <h2 class="text-white mb-5">CONTACT</h2>
@@ -444,6 +444,7 @@ C570.147,239.158,580.126,228.537,588,216.411" />
             <div class="form-group col-5">
               <label for="fullName">FULL NAME</label>
               <input type="text" class="form-control" id="fullName">
+              <small id="fullNameErrorPlace" class="form-text">eMailErrorPlace</small>
             </div>
             <div class="col-6 offset-1">
               <p>
@@ -457,6 +458,7 @@ C570.147,239.158,580.126,228.537,588,216.411" />
             <div class="form-group col-5">
               <label for="eMail">EMAIL</label>
               <input type="email" class="form-control" id="eMail">
+              <small id="eMailErrorPlace" class="form-text ">We'll never share your email with anyone else.</small>
             </div>
             <div class="col-6 offset-1">
               <pre>Linda Newman
@@ -468,8 +470,9 @@ Mondovi, WI(Wisconsin) 98746-54321
           </div>
           <div class="row">
               <div class="form-group col-12">
-                <label for="theMessage">EMAIL</label>
+                <label for="theMessage">MESSAGE</label>
                 <textarea type="text" class="form-control" id="theMessage" rows="6"></textarea>
+                <small id="theMessageErrorPlace" class="form-text">We'll never share your email with anyone else.</small>
               </div>
           </div>
           <div class="row">
@@ -531,7 +534,8 @@ Mondovi, WI(Wisconsin) 98746-54321
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
   <script src="assets/js/bootstrap_popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/galleryModal.js"></script>
+  <script src="assets/js/myGalleryModal.js"></script>
+  <script src="assets/js/myForm.js"></script>
 </body>
 
 </html>

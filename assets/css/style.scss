@@ -95,6 +95,8 @@ body {
     .container {      
       padding: 11rem 0;
       h1 {
+        display:flex;
+        justify-content: center;
         font-family: 'segoeui_l';
         line-height: 50px;
         color: white;
@@ -279,6 +281,9 @@ body {
                 background-color: transparent;
                 border-radius: 0;
                 color: #ffffff;
+              }
+              small {
+                color: transparent;
               }
             }
             div {
