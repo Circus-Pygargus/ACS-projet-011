@@ -53,33 +53,40 @@ body {
     .background_navbar {
       background-color: rgba($color: #353f46, $alpha: 0.85);
 
-      .navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {        
+      .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {        
         font-family: 'segoeui_b', sans-serif;
         color: white;
         border: 2px solid transparent;
       }
-      .navbar-light .navbar-brand{
+      .navbar-dark .navbar-brand{
         font-size: 2.25rem;
       }
-      .navbar-light .navbar-nav .nav-link{
+      .navbar-dark .navbar-nav .nav-link{
         font-size: 1.25rem;
       }
-      .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link:hover {  
+      .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-nav .nav-link:hover {  
         color: #4bcaff;
         span.blue{
           color: white;
         }
       }
-      .navbar-light .navbar-nav .nav-link.active {  
+      .navbar-dark .navbar-nav .nav-link.active {  
         color: #4bcaff;
         border-color: #4bcaff;
         span.blue{
           color: white;
         }
       }
-      .navbar-light .navbar-nav .nav-link.active:hover {
+      .navbar-dark .navbar-nav .nav-link.active:hover {
         color: white;
       }
+      // the burger   change has been made in bootstrap.min.css =)
+      // .navbar-dark .navbartoggler {
+      //   border-color: #FFFFFF;
+      //   .navbar-dark .navbartoggler .navbar-togler-icon {
+      //     stroke: rgb(255, 255, 255);
+      //   }
+      // }
     }
 
     #top_anchor {
@@ -91,6 +98,7 @@ body {
         font-family: 'segoeui_l';
         line-height: 50px;
         color: white;
+        text-align: center;
       }
     }
   }
@@ -100,13 +108,13 @@ body {
       position: absolute;
       top: 40px;
       width: 45px;
-      border: 2px solid transparent;
+      border-top: 2px solid transparent!important;
     }
     .container-fluid .container .row div div.border-top.bordure_blanche {
-      border-color: white;
+      border-color: white!important;
     }
     .container-fluid .container .row div div.border-top.bordure_noire {
-      border-color: black;
+      border-color: black!important;
     }
     // tous les h2
     section .container .row div h2 {
@@ -231,10 +239,68 @@ body {
               color: black;
             }
           }
+          div {
+            span#guillemets {
+              font-family: 'bitter_b'; 
+              font-size: 50px;
+            }
+          }
+          div {
+            p {
+              font-family: 'segoeui_l';
+              font-size: 29px;
+            }
+            span#auteur_citation {
+              font-family: 'segoeui_b';
+              font-size: 14px;
+              color: #4bcaff;
+            }
+          }
+        }
+      }
+    }
+
+
+
+    #section_contact {
+      background-image: url('../img/background_contact.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      .container {
+        .form {
+          .row {
+            .form-group {
+              label {
+                font-family: 'segoeui_b';
+                color: #ffffff;
+              }
+              input, textarea {
+                background-color: transparent;
+                border-radius: 0;
+                color: #ffffff;
+              }
+            }
+            div {
+              p, pre {
+                font-family: 'segoeui_sb';
+                font-size: 14px;
+                color: white;
+              }
+            }
+            #mySubmitButton {
+              background-color: #4bcaff;
+              border-radius: 0;
+              font-family: 'segoeui_b';
+            }
+          }
         }
       }
     }
   }
+
+
+
 
   footer {
     background-color: #353f47;

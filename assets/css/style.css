@@ -47,31 +47,31 @@ body header.container-fluid .container-fluid {
 body header.container-fluid .background_navbar {
   background-color: rgba(53, 63, 70, 0.85);
 }
-body header.container-fluid .background_navbar .navbar-light .navbar-brand, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link {
+body header.container-fluid .background_navbar .navbar-dark .navbar-brand, body header.container-fluid .background_navbar .navbar-dark .navbar-nav .nav-link {
   font-family: "segoeui_b", sans-serif;
   color: white;
   border: 2px solid transparent;
 }
-body header.container-fluid .background_navbar .navbar-light .navbar-brand {
+body header.container-fluid .background_navbar .navbar-dark .navbar-brand {
   font-size: 2.25rem;
 }
-body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link {
+body header.container-fluid .background_navbar .navbar-dark .navbar-nav .nav-link {
   font-size: 1.25rem;
 }
-body header.container-fluid .background_navbar .navbar-light .navbar-brand:hover, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link:hover {
+body header.container-fluid .background_navbar .navbar-dark .navbar-brand:hover, body header.container-fluid .background_navbar .navbar-dark .navbar-nav .nav-link:hover {
   color: #4bcaff;
 }
-body header.container-fluid .background_navbar .navbar-light .navbar-brand:hover span.blue, body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link:hover span.blue {
+body header.container-fluid .background_navbar .navbar-dark .navbar-brand:hover span.blue, body header.container-fluid .background_navbar .navbar-dark .navbar-nav .nav-link:hover span.blue {
   color: white;
 }
-body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active {
+body header.container-fluid .background_navbar .navbar-dark .navbar-nav .nav-link.active {
   color: #4bcaff;
   border-color: #4bcaff;
 }
-body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active span.blue {
+body header.container-fluid .background_navbar .navbar-dark .navbar-nav .nav-link.active span.blue {
   color: white;
 }
-body header.container-fluid .background_navbar .navbar-light .navbar-nav .nav-link.active:hover {
+body header.container-fluid .background_navbar .navbar-dark .navbar-nav .nav-link.active:hover {
   color: white;
 }
 body header.container-fluid #top_anchor {
@@ -84,18 +84,19 @@ body header.container-fluid .container h1 {
   font-family: "segoeui_l";
   line-height: 50px;
   color: white;
+  text-align: center;
 }
 body main .container-fluid .container .row div div.border-top {
   position: absolute;
   top: 40px;
   width: 45px;
-  border: 2px solid transparent;
+  border-top: 2px solid transparent !important;
 }
 body main .container-fluid .container .row div div.border-top.bordure_blanche {
-  border-color: white;
+  border-color: white !important;
 }
 body main .container-fluid .container .row div div.border-top.bordure_noire {
-  border-color: black;
+  border-color: black !important;
 }
 body main section .container .row div h2 {
   font-family: "segoeui_l";
@@ -179,6 +180,44 @@ body main #section_whois .container .row div div a svg:hover {
 }
 body main #section_testimonials .container .row div h2 {
   color: black;
+}
+body main #section_testimonials .container .row div span#guillemets {
+  font-family: "bitter_b";
+  font-size: 50px;
+}
+body main #section_testimonials .container .row div p {
+  font-family: "segoeui_l";
+  font-size: 29px;
+}
+body main #section_testimonials .container .row div span#auteur_citation {
+  font-family: "segoeui_b";
+  font-size: 14px;
+  color: #4bcaff;
+}
+body main #section_contact {
+  background-image: url("../img/background_contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body main #section_contact .container .form .row .form-group label {
+  font-family: "segoeui_b";
+  color: #ffffff;
+}
+body main #section_contact .container .form .row .form-group input, body main #section_contact .container .form .row .form-group textarea {
+  background-color: transparent;
+  border-radius: 0;
+  color: #ffffff;
+}
+body main #section_contact .container .form .row div p, body main #section_contact .container .form .row div pre {
+  font-family: "segoeui_sb";
+  font-size: 14px;
+  color: white;
+}
+body main #section_contact .container .form .row #mySubmitButton {
+  background-color: #4bcaff;
+  border-radius: 0;
+  font-family: "segoeui_b";
 }
 body footer {
   background-color: #353f47;

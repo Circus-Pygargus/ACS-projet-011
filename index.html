@@ -36,12 +36,13 @@
     <!-- my fixed navbar -->
     <div class="background_navbar fixed-top">
       <!-- <div class="container"> -->
-      <nav id="myNavbar" class=" container py-4 navbar navbar-expand-lg navbar-light ">
+      <nav id="myNavbar" class=" container py-4 navbar navbar-expand-lg navbar-dark ">
         <!-- logo -->
         <a href="#" class="navbar-brand">BLU<span class="blue">E</span>ASY</a>
         <!-- burger -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler_01"
-          aria-controls="navbarToggler_01" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="myBurger" class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarToggler_01" aria-controls="navbarToggler_01" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- navbar -->
@@ -198,6 +199,7 @@
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_4.jpg"
                   data-target="#galleryModal">
               </div>
+
               <div class="tab-pane fade" id="list-bridges" role="tabpanel" aria-labelledby="list-bridges-list">
                 <img class="" src="assets/img/portfolio_img_1_1.png" alt="a rounded bridge" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_1.jpg"
@@ -206,6 +208,7 @@
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_2.jpg"
                   data-target="#galleryModal">
               </div>
+
               <div class="tab-pane fade" id="list-water" role="tabpanel" aria-labelledby="list-water-list">
                 <img class="" src="assets/img/portfolio_img_1_3.png" alt="a lake" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_3.jpg"
@@ -217,6 +220,7 @@
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_2.jpg"
                   data-target="#galleryModal">
               </div>
+
               <div class="tab-pane fade" id="list-mountains" role="tabpanel" aria-labelledby="list-mountains-list">
                 <img class="" src="assets/img/portfolio_img_2_3.png" alt="a mountain" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_3.jpg"
@@ -225,6 +229,7 @@
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_4.jpg"
                   data-target="#galleryModal">
               </div>
+
               <div class="tab-pane fade" id="list-shack" role="tabpanel" aria-labelledby="list-shack-list">
                 <img class="" src="assets/img/portfolio_img_2_1.png" alt="a wood shack in mountains" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_1.jpg"
@@ -347,8 +352,8 @@ C570.147,239.158,580.126,228.537,588,216.411" />
                     <title>Twitter-color</title>
                     <g>
                       <g transform="translate(-300.000000, -164.000000)">
-                        <path fill="#FFFFFF" 
-                        d="M588,216.411c-10.754,4.898-22.198,8.115-33.93,9.539c12.421-7.666,21.649-19.57,25.98-33.51c-11.565,7.042-24.269,12.01-37.541,14.682C531.762,195.35,516.396,188,499.386,188c-32.61,0-59.064,27.126-59.064,60.588c0,4.746,0.509,9.36,1.523,13.8c-49.11-2.539-92.64-26.628-121.8-63.33c-5.259,9.3-8.013,19.807-7.992,30.492c0,21.012,10.428,39.558,26.281,50.429c-9.406-0.311-18.594-2.905-26.773-7.559v0.744c0,29.364,20.371,53.862,47.419,59.407c-5.064,1.435-10.306,2.155-15.57,2.136c-3.803,0-7.523-0.366-11.124-1.08c7.524,24.06,29.328,41.592,55.194,42.06c-20.22,16.26-45.709,25.95-73.38,25.95c-4.77,0-9.48-0.282-14.1-0.834C326.154,417.962,357.223,428,390.576,428c108.69,0,168.114-92.31,168.114-172.38c0-2.634-0.054-5.269-0.156-7.848C570.147,239.158,580.126,228.537,588,216.411" />
+                        <path fill="#FFFFFF"
+                          d="M588,216.411c-10.754,4.898-22.198,8.115-33.93,9.539c12.421-7.666,21.649-19.57,25.98-33.51c-11.565,7.042-24.269,12.01-37.541,14.682C531.762,195.35,516.396,188,499.386,188c-32.61,0-59.064,27.126-59.064,60.588c0,4.746,0.509,9.36,1.523,13.8c-49.11-2.539-92.64-26.628-121.8-63.33c-5.259,9.3-8.013,19.807-7.992,30.492c0,21.012,10.428,39.558,26.281,50.429c-9.406-0.311-18.594-2.905-26.773-7.559v0.744c0,29.364,20.371,53.862,47.419,59.407c-5.064,1.435-10.306,2.155-15.57,2.136c-3.803,0-7.523-0.366-11.124-1.08c7.524,24.06,29.328,41.592,55.194,42.06c-20.22,16.26-45.709,25.95-73.38,25.95c-4.77,0-9.48-0.282-14.1-0.834C326.154,417.962,357.223,428,390.576,428c108.69,0,168.114-92.31,168.114-172.38c0-2.634-0.054-5.269-0.156-7.848C570.147,239.158,580.126,228.537,588,216.411" />
                       </g>
                     </g>
                   </g>
@@ -356,8 +361,9 @@ C570.147,239.158,580.126,228.537,588,216.411" />
               </a>
               <!-- logo google+ -->
               <a class="px-2 py-3 mr-3" href="">
-                <svg id="logoGooglePlus" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                  y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                <svg id="logoGooglePlus" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+                  enable-background="new 0 0 1000 1000" xml:space="preserve">
                   <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
                   <g>
                     <g transform="translate(0.000000,218.000000) scale(0.100000,-0.100000)">
@@ -371,8 +377,9 @@ C570.147,239.158,580.126,228.537,588,216.411" />
               </a>
               <!-- logo dribble -->
               <a class="px-2 py-3 mr-3" href="">
-                <svg id="logoDribble" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                  y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                <svg id="logoDribble" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+                  enable-background="new 0 0 1000 1000" xml:space="preserve">
                   <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
                   <g>
                     <path fill="#FFFFFF"
@@ -382,8 +389,9 @@ C570.147,239.158,580.126,228.537,588,216.411" />
               </a>
               <!-- logo coffee -->
               <a class="px-2 py-3" href="">
-                <svg id="logoCoffee" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                  y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+                <svg id="logoCoffee" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000"
+                  enable-background="new 0 0 1000 1000" xml:space="preserve">
                   <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
                   <g>
                     <path fill="#FFFFFF"
@@ -396,17 +404,79 @@ C570.147,239.158,580.126,228.537,588,216.411" />
         </div>
       </div>
     </section>
+
+
+
     <section id="section_testimonials" class="container-fluid">
       <div class="container py-5">
-        <div class="row">
+        <div class="row justify-content-between">
           <div class="col-auto">
             <h2 class="mb-5">TESTIMONIALS</h2>
             <div class="border-top bordure_noire"></div>
           </div>
+          <div class="col-1">
+            <span id="guillemets">&nbsp;&nbsp;”</span>
+          </div>
+          <div class="col-12">
+            <p>
+              Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon
+              cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.
+            </p>
+            <span id="auteur_citation">-Walter White</span>
+          </div>
         </div>
       </div>
     </section>
-    <section id="section_contact" style=" height:800px">
+
+
+
+
+    <section id="section_contact" class="container-fluid">
+      <div class="container py-5">
+        <div class="form">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="text-white mb-5">CONTACT</h2>
+              <div class="border-top bordure_blanche"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-5">
+              <label for="fullName">FULL NAME</label>
+              <input type="text" class="form-control" id="fullName">
+            </div>
+            <div class="col-6 offset-1">
+              <p>
+                Jujubes bear claw croissant wafer sweet lemon drops brownie chocolate bar. Sweet
+                lollipop halvah tootsie roll cake fruitcake. Chocolate cake chocolate bar gingerbread
+                lollipop tart. Jujubes bear claw donut chupa chups.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-5">
+              <label for="eMail">EMAIL</label>
+              <input type="email" class="form-control" id="eMail">
+            </div>
+            <div class="col-6 offset-1">
+              <pre>Linda Newman
+W325 State Road 123
+Mondovi, WI(Wisconsin) 98746-54321
+(715) 946 - 1234
+              </pre>
+            </div>
+          </div>
+          <div class="row">
+              <div class="form-group col-12">
+                <label for="theMessage">EMAIL</label>
+                <textarea type="text" class="form-control" id="theMessage" rows="6"></textarea>
+              </div>
+          </div>
+          <div class="row">
+            <button type="submit" id="mySubmitButton" class="btn text-white col-3 ml-3">MESSAGE</button>
+          </div>
+        </div>
+      </div>
     </section>
 
 
