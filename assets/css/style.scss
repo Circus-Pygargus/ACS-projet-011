@@ -53,6 +53,11 @@ body {
     .background_navbar {
       background-color: rgba($color: #353f46, $alpha: 0.85);
 
+      .navbar-dark {
+        padding-right: 15px;
+        padding-left: 15px;
+      }
+
       .navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {        
         font-family: 'segoeui_b', sans-serif;
         color: white;
@@ -122,6 +127,10 @@ body {
     section .container .row div h2 {
       font-family: 'segoeui_l';
     }
+    // les row
+    .container-fluid .container .row {
+      margin-right: 0;
+    }
     #section_services {
       background-color: #4bcaff;
       .container {
@@ -135,6 +144,9 @@ body {
         }
       }
     }
+
+
+
     #section_portfolio .container .row div .list-group a.list-group-item {  
       font-family: 'segoeui_b', sans-serif;
       color: black;
@@ -155,6 +167,17 @@ body {
       color: black;
     }
 
+    // the gallery modal
+    #galleryModal {
+      .modal-dialog {
+        .modal-content {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
 
     #section_features {
       background-color: #515f67;
@@ -168,6 +191,12 @@ body {
           }
           a:hover {
             color: #4bcaff;
+          }
+        }
+        // vimeo video
+        .col-6 {
+          img {
+            width: 100%;
           }
         }
       }

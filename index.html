@@ -174,28 +174,28 @@
             <div class="tab-content" id="nav-tab-content">
               <div class="tab-pane fade justify-content-between show active" id="list-all" role="tabpanel"
                 aria-labelledby="list-all-list">
-                <img class="mt-1" src="assets/img/portfolio_img_1_1.png" alt="a rounded bridge" width="270" height="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_1_1.png" alt="a rounded bridge" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_1.jpg"
                   data-target="#galleryModal">
-                <img class="mt-1" src="assets/img/portfolio_img_1_2.png" alt="a bridge hidden by fog" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_1_2.png" alt="a bridge hidden by fog" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_2.jpg"
                   data-target="#galleryModal">
-                <img class="mt-1" src="assets/img/portfolio_img_1_3.png" alt="a lake" width="270" height="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_1_3.png" alt="a lake" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_3.jpg"
                   data-target="#galleryModal">
-                <img class="mt-1" src="assets/img/portfolio_img_1_4.png" alt="a little island in the middle of a lake"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_1_4.png" alt="a little island in the middle of a lake"
                   width="270" height="270" data-toggle="modal"
                   data-large-src="assets/img/big_hover/portfolio_img_1_4.jpg" data-target="#galleryModal">
-                <img class="mt-1" src="assets/img/portfolio_img_2_1.png" alt="a wood shack in mountains" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_2_1.png" alt="a wood shack in mountains" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_1.jpg"
                   data-target="#galleryModal">
-                <img class="mt-1" src="assets/img/portfolio_img_2_2.png" alt="John Doe surfing waves" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_2_2.png" alt="John Doe surfing waves" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_2.jpg"
                   data-target="#galleryModal">
-                <img class="mt-1" src="assets/img/portfolio_img_2_3.png" alt="a mountain" width="270" height="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_2_3.png" alt="a mountain" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_3.jpg"
                   data-target="#galleryModal">
-                <img class="mt-1" src="assets/img/portfolio_img_2_4.png" alt="a mountain with some fog" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_2_4.png" alt="a mountain with some fog" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_4.jpg"
                   data-target="#galleryModal">
               </div>
@@ -433,7 +433,7 @@ C570.147,239.158,580.126,228.537,588,216.411" />
 
     <section id="section_contact" class="container-fluid">
       <div class="container py-5">
-        <div id="myForm" class="form">
+        <form id="myForm" class="form">
           <div class="row">
             <div class="col-12">
               <h2 class="text-white mb-5">CONTACT</h2>
@@ -477,8 +477,9 @@ Mondovi, WI(Wisconsin) 98746-54321
           </div>
           <div class="row">
             <button type="submit" id="mySubmitButton" class="btn text-white col-3 ml-3">MESSAGE</button>
+            <p id="submitErrorPlace" class="text-red col-auto offset-1 mt-2"></p>
           </div>
-        </div>
+        </form>
       </div>
     </section>
 
