@@ -9,13 +9,13 @@
   <title>Blueasy</title>
   <meta name="author" content="Richard Meuret">
   <meta name="descritpion" content="Blueasy website">
-  <meta name="keywords" content="">
+  <meta name="keywords" content="John Doe adventure">
   <!--Meta facebook, Google+, Linkedin -->
   <meta property="og:url" content="lien du site" />
   <meta property="og:locale" content="fr_FR">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Blueasy website" />
-  <meta property="og:description" content="" />
+  <meta property="og:description" content="John Doe adventure" />
   <meta property="og:image" content="fav.png" />
   <!--Meta twitter -->
   <meta name="twitter:card" content="summary" /> <!-- la taille de la boite d'affichage-->
@@ -23,7 +23,7 @@
   <meta name="twitter:site" content="monsite" />
   <meta name="twitter:url" content="lien du site/" />
   <meta name="twitter:title" content="Blueasy website" />
-  <meta name="twitter:description" content="">
+  <meta name="twitter:description" content="John Doe adventure">
   <!-- faire une icone HTML5    <link rel="icon" type="image/png" href="fav.png"/> -->
   <!-- ajout boostrap -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -66,23 +66,16 @@
           </ul>
         </div>
       </nav>
-      <!-- </div> -->
     </div>
 
 
     <div id="top_anchor"></div>
 
     <div class="container">
-      <!-- <h1 >
-          <span class="text-center">"I'M LOOKING FOR THE UNEXPECTED.</span>
-          <span class="text-center">I'M LOKKING FOR THINGS I'VE NEVER SEEN BEFORE."</span>
-        </h1> -->
-      <!-- <div class="row"> -->
-      <h1 class="row my-5">
-        <span class="d-block text-center my-3 background_navbar">"I'M LOOKING FOR THE UNEXPECTED.</span>
-        <span class="d-block text-center background_navbar">I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE."</span>
+      <h1 class="my-5">
+        <span class="text-center my-3 background_navbar">"I'M LOOKING FOR THE UNEXPECTED.</span><br>
+        <span class="text-center background_navbar">I'M LOOKING FOR THINGS I'VE NEVER SEEN BEFORE."</span>
       </h1>
-      <!-- </div> -->
     </div>
   </header>
 
@@ -98,7 +91,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-3">
+          <div class="col-sm-6 col-md-3">
             <img src="assets/img/pictos/picto_coffee.png" alt="coffee pictogram" width="34" height="48">
             <h3 class="my-3">COFFEE</h3>
             <p class="text-white">
@@ -108,7 +101,7 @@
               Tiramisu applicake jujubes.
             </p>
           </div>
-          <div class="col-3">
+          <div class="col-sm-6 col-md-3">
             <img src="assets/img/pictos/picto_instant.png" alt="pictogram" width="48" height="48">
             <h3 class="my-3">INSTANT</h3>
             <p class="text-white">
@@ -118,7 +111,7 @@
               applicake jujubes.
             </p>
           </div>
-          <div class="col-3">
+          <div class="col-sm-6 col-md-3">
             <img src="assets/img/pictos/picto_serious.png" alt="pictogram" width="48" height="48">
             <h3 class="my-3">SERIOUS</h3>
             <p class="text-white">
@@ -128,7 +121,7 @@
               Tiramisu applicake jujubes.
             </p>
           </div>
-          <div class="col-3">
+          <div class="col-sm-6 col-md-3">
             <img src="assets/img/pictos/picto_frame.png" alt="pictogram" width="47" height="45">
             <h3 class="my-3">FRAME</h3>
             <p class="text-white">
@@ -153,8 +146,8 @@
             </div>
           </div>
           <!-- liste choix des images à afficher -->
-          <div class="col_md-auto  mb-5">
-            <div class="list-group list-group-horizontal-md" role="tab-list">
+          <div class="col_md-auto  mb-5" >
+            <div class="list-group list-group-horizontal-md" role="tablist">
               <a class="list-group-item list-group-item-action active" id="list-all-list" data-toggle="list"
                 href="#list-all" role="tab" aria-controls="all">ALL</a>
               <a class="list-group-item list-group-item-action" id="list-bridges-list" data-toggle="list"
@@ -201,40 +194,45 @@
               </div>
 
               <div class="tab-pane fade" id="list-bridges" role="tabpanel" aria-labelledby="list-bridges-list">
-                <img class="" src="assets/img/portfolio_img_1_1.png" alt="a rounded bridge" width="270" height="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_1_1.png" alt="a rounded bridge" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_1.jpg"
                   data-target="#galleryModal">
-                <img class="" src="assets/img/portfolio_img_1_2.png" alt="a bridge hidden by fog" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_1_2.png" alt="a bridge hidden by fog" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_2.jpg"
                   data-target="#galleryModal">
               </div>
 
               <div class="tab-pane fade" id="list-water" role="tabpanel" aria-labelledby="list-water-list">
-                <img class="" src="assets/img/portfolio_img_1_3.png" alt="a lake" width="270" height="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_1_3.png" alt="a lake" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_3.jpg"
                   data-target="#galleryModal">
-                <img class="" src="assets/img/portfolio_img_1_4.png" alt="an island in the middle of a lake" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_1_4.png" alt="an island in the middle of a lake" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_1_4.jpg"
                   data-target="#galleryModal">
-                <img class="" src="assets/img/portfolio_img_2_2.png" alt="John Doe surfing waves" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_2_2.png" alt="John Doe surfing waves" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_2.jpg"
                   data-target="#galleryModal">
               </div>
 
               <div class="tab-pane fade" id="list-mountains" role="tabpanel" aria-labelledby="list-mountains-list">
-                <img class="" src="assets/img/portfolio_img_2_3.png" alt="a mountain" width="270" height="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_2_3.png" alt="a mountain" width="270" height="270"
                   data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_3.jpg"
                   data-target="#galleryModal">
-                <img class="" src="assets/img/portfolio_img_2_4.png" alt="a mountain with some fog" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_2_4.png" alt="a mountain with some fog" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_4.jpg"
                   data-target="#galleryModal">
               </div>
 
               <div class="tab-pane fade" id="list-shack" role="tabpanel" aria-labelledby="list-shack-list">
-                <img class="" src="assets/img/portfolio_img_2_1.png" alt="a wood shack in mountains" width="270"
+                <img class="myHoverWatcher mt-1" src="assets/img/portfolio_img_2_1.png" alt="a wood shack in mountains" width="270"
                   height="270" data-toggle="modal" data-large-src="assets/img/big_hover/portfolio_img_2_1.jpg"
                   data-target="#galleryModal">
               </div>
+
+              <!-- my div for hover effect -->
+              <!-- <div class="myOverlay">
+                <div class="myPlus">+</div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -245,7 +243,7 @@
     <section id="section_features" class="container-fluid">
       <div class="container py-5">
         <div class="row">
-          <div class="col-5">
+          <div class="col-lg-5">
             <h2 class="text-white mb-5">JUST DEFAULT SECTION</h2>
             <div class="border-top bordure_blanche"></div>
             <p class="text-white">
@@ -261,9 +259,8 @@
             </p>
             <a class="px-4 py-2" href="#section_whois">VISIT ME</a>
           </div>
-          <div class="col-6 offset-1">
-            <img src="assets/img/vimeo.jpg" alt="a false vimeo video showing a lot of people on the beach" width="560"
-              height="313">
+          <div class="iframe-container col-lg-6 ml-auto">
+              <iframe src="https://player.vimeo.com/video/9466327" width="640" height="360" allow="autoplay; fullscreen" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -322,7 +319,7 @@ C570.147,239.158,580.126,228.537,588,216.411" />
             <h2 class="text-white mb-5">WHO IS JOHN DOE?</h2>
             <div class="border-top bordure_blanche"></div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <p class="text-white mb-4">
               Bear claw marzipan bear claw applicake I love muffin. Lemon drops gummi bears pastry
               gummi bears sesame snaps I love unerdwear.com. Soufflé cotton candy dessert candy ice
@@ -334,7 +331,7 @@ C570.147,239.158,580.126,228.537,588,216.411" />
               bonbon I love candy canes toffee.
             </p>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <p class="text-white mb-4">
               Pudding dessert jujubes tiramisu gingerbread croissant tiramisu applicake. Sesame snaps
               sugar plum cotton candy chocolate bonbon lemon drops candy canes cotton candy. Cake
@@ -415,7 +412,7 @@ C570.147,239.158,580.126,228.537,588,216.411" />
             <div class="border-top bordure_noire"></div>
           </div>
           <div class="col-1">
-            <span id="guillemets">&nbsp;&nbsp;”</span>
+            <span id="guillemets">”</span>
           </div>
           <div class="col-12">
             <p>
@@ -471,7 +468,7 @@ Mondovi, WI(Wisconsin) 98746-54321
           <div class="row">
               <div class="form-group col-12">
                 <label for="theMessage">MESSAGE</label>
-                <textarea type="text" class="form-control" id="theMessage" rows="6"></textarea>
+                <textarea class="form-control" id="theMessage" rows="6"></textarea>
                 <small id="theMessageErrorPlace" class="form-text">We'll never share your email with anyone else.</small>
               </div>
           </div>
@@ -497,7 +494,7 @@ Mondovi, WI(Wisconsin) 98746-54321
             </button>
           </div>
           <div class="modal-body p-0 text-center bg-alt"> -->
-          <img src="assets/img/portfolio_img_1_1.png" id="galleryImage" class="loaded-image mx-auto img-fluid">
+          <img src="assets/img/portfolio_img_1_1.png" alt="an image" id="galleryImage" class="loaded-image mx-auto img-fluid">
           <!-- </div> -->
         </div>
       </div>
